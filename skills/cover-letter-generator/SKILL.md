@@ -1,3 +1,8 @@
+---
+name: Cover Letter Generator
+description: Create personalized, compelling cover letters from resume and job description
+---
+
 # Cover Letter Generator
 
 ## When to Use This Skill

@@ -1,3 +1,8 @@
+---
+name: Career Changer Translator
+description: Translate skills from one industry to another, identify transferable skills
+---
+
 # Career Changer Translator
 
 ## When to Use This Skill

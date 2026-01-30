@@ -1,3 +1,8 @@
+---
+name: Academic CV Builder
+description: Format CVs for academic positions with publications, grants, and teaching
+---
+
 # Academic CV Builder
 
 ## When to Use This Skill

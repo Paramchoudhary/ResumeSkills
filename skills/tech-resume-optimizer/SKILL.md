@@ -1,3 +1,8 @@
+---
+name: Tech Resume Optimizer
+description: Optimize resumes for software engineering, PM, and technical roles
+---
+
 # Tech Resume Optimizer
 
 ## When to Use This Skill

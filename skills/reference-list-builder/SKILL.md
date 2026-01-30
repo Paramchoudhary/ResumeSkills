@@ -1,3 +1,8 @@
+---
+name: Reference List Builder
+description: Format professional references properly and prepare reference materials
+---
+
 # Reference List Builder
 
 ## When to Use This Skill

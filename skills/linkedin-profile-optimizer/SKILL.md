@@ -1,3 +1,8 @@
+---
+name: LinkedIn Profile Optimizer
+description: Optimize LinkedIn profile for searchability, recruiter visibility, and engagement
+---
+
 # LinkedIn Profile Optimizer
 
 ## When to Use This Skill

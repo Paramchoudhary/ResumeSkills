@@ -1,3 +1,8 @@
+---
+name: Portfolio Case Study Writer
+description: Transform resume bullets into detailed portfolio case studies
+---
+
 # Portfolio Case Study Writer
 
 ## When to Use This Skill

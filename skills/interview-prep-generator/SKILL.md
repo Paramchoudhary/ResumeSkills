@@ -1,3 +1,8 @@
+---
+name: Interview Prep Generator
+description: Generate STAR stories, practice questions, and talking points from resume
+---
+
 # Interview Prep Generator
 
 ## When to Use This Skill

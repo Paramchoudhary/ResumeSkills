@@ -1,3 +1,8 @@
+---
+name: Resume Bullet Writer
+description: Transform weak resume bullets into achievement-focused statements with metrics and impact
+---
+
 # Resume Bullet Writer
 
 ## When to Use This Skill

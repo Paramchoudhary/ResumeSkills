@@ -1,3 +1,8 @@
+---
+name: Offer Comparison Analyzer
+description: Compare multiple job offers side-by-side with total compensation analysis
+---
+
 # Offer Comparison Analyzer
 
 ## When to Use This Skill

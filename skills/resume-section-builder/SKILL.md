@@ -1,3 +1,8 @@
+---
+name: Resume Section Builder
+description: Create targeted resume sections optimized for different experience levels and roles
+---
+
 # Resume Section Builder
 
 ## When to Use This Skill

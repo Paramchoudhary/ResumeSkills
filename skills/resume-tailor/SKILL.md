@@ -1,3 +1,8 @@
+---
+name: Resume Tailor
+description: Customize resume for specific job postings while maintaining truthfulness
+---
+
 # Resume Tailor
 
 ## When to Use This Skill

@@ -1,3 +1,8 @@
+---
+name: Job Description Analyzer
+description: Analyze job postings, calculate match scores, identify gaps, and create application strategy
+---
+
 # Job Description Analyzer
 
 ## When to Use This Skill

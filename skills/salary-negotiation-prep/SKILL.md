@@ -1,3 +1,8 @@
+---
+name: Salary Negotiation Prep
+description: Research market rates, build negotiation strategy, and create counter-offer scripts
+---
+
 # Salary Negotiation Prep
 
 ## When to Use This Skill

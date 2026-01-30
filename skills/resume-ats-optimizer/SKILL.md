@@ -1,3 +1,8 @@
+---
+name: Resume ATS Optimizer
+description: Optimize resumes for Applicant Tracking Systems, check ATS compatibility, and analyze keyword match
+---
+
 # Resume ATS Optimizer
 
 ## When to Use This Skill

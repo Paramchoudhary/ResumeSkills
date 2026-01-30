@@ -1,3 +1,8 @@
+---
+name: Resume Quantifier
+description: Find opportunities to add metrics and estimate numbers when exact data unavailable
+---
+
 # Resume Quantifier
 
 ## When to Use This Skill

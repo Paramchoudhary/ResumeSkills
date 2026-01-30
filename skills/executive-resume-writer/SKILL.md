@@ -1,3 +1,8 @@
+---
+name: Executive Resume Writer
+description: Create C-suite and VP level resumes emphasizing strategic leadership
+---
+
 # Executive Resume Writer
 
 ## When to Use This Skill

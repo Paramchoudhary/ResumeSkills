@@ -1,3 +1,8 @@
+---
+name: Creative Portfolio Resume
+description: Balance visual design with ATS compatibility for creative roles
+---
+
 # Creative Portfolio Resume
 
 ## When to Use This Skill

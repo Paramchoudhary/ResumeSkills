@@ -1,3 +1,8 @@
+---
+name: Resume Version Manager
+description: Track different resume versions, maintain master resume, manage tailored versions
+---
+
 # Resume Version Manager
 
 ## When to Use This Skill
