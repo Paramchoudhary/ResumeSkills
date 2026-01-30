@@ -1,0 +1,155 @@
+{
+  "name": "resume-skills",
+  "version": "1.0.0",
+  "description": "Resume optimization skills for Claude Code - ATS optimization, bullet writing, job matching, and career development",
+  "author": "Resume Skills Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/resume-skills"
+  },
+  "skills": [
+    {
+      "name": "resume-ats-optimizer",
+      "path": "skills/resume-ats-optimizer/SKILL.md",
+      "description": "Optimize resumes for Applicant Tracking Systems",
+      "triggers": ["ATS", "optimize resume", "not getting interviews", "keyword optimization", "resume not working"]
+    },
+    {
+      "name": "resume-bullet-writer",
+      "path": "skills/resume-bullet-writer/SKILL.md",
+      "description": "Transform weak bullets into achievement-focused statements",
+      "triggers": ["improve bullets", "make resume stronger", "quantify achievements", "results-driven", "weak bullets"]
+    },
+    {
+      "name": "job-description-analyzer",
+      "path": "skills/job-description-analyzer/SKILL.md",
+      "description": "Analyze job postings and calculate match scores",
+      "triggers": ["analyze job", "should I apply", "match score", "am I qualified", "job requirements"]
+    },
+    {
+      "name": "resume-tailor",
+      "path": "skills/resume-tailor/SKILL.md",
+      "description": "Customize resume for specific job postings",
+      "triggers": ["tailor resume", "customize resume", "specific job", "target role"]
+    },
+    {
+      "name": "cover-letter-generator",
+      "path": "skills/cover-letter-generator/SKILL.md",
+      "description": "Create personalized cover letters",
+      "triggers": ["cover letter", "write cover letter", "application letter"]
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "path": "skills/linkedin-profile-optimizer/SKILL.md",
+      "description": "Optimize LinkedIn profile for searchability",
+      "triggers": ["LinkedIn", "LinkedIn profile", "optimize LinkedIn", "LinkedIn headline"]
+    },
+    {
+      "name": "interview-prep-generator",
+      "path": "skills/interview-prep-generator/SKILL.md",
+      "description": "Generate interview prep materials and STAR stories",
+      "triggers": ["interview prep", "prepare for interview", "STAR stories", "interview questions"]
+    },
+    {
+      "name": "salary-negotiation-prep",
+      "path": "skills/salary-negotiation-prep/SKILL.md",
+      "description": "Build salary negotiation strategy",
+      "triggers": ["salary negotiation", "negotiate offer", "counter offer", "compensation"]
+    },
+    {
+      "name": "tech-resume-optimizer",
+      "path": "skills/tech-resume-optimizer/SKILL.md",
+      "description": "Optimize resumes for technical roles",
+      "triggers": ["tech resume", "software engineer resume", "developer resume", "technical resume"]
+    },
+    {
+      "name": "executive-resume-writer",
+      "path": "skills/executive-resume-writer/SKILL.md",
+      "description": "Create executive and C-suite resumes",
+      "triggers": ["executive resume", "C-suite", "VP resume", "senior leadership"]
+    },
+    {
+      "name": "career-changer-translator",
+      "path": "skills/career-changer-translator/SKILL.md",
+      "description": "Translate skills for career transitions",
+      "triggers": ["career change", "switching careers", "transferable skills", "new industry"]
+    },
+    {
+      "name": "resume-quantifier",
+      "path": "skills/resume-quantifier/SKILL.md",
+      "description": "Add metrics and numbers to resume",
+      "triggers": ["add metrics", "quantify", "add numbers", "measure impact"]
+    },
+    {
+      "name": "resume-formatter",
+      "path": "skills/resume-formatter/SKILL.md",
+      "description": "Format resume for ATS and readability",
+      "triggers": ["format resume", "resume layout", "resume design", "clean resume"]
+    },
+    {
+      "name": "portfolio-case-study-writer",
+      "path": "skills/portfolio-case-study-writer/SKILL.md",
+      "description": "Create portfolio case studies",
+      "triggers": ["case study", "portfolio", "project writeup", "work samples"]
+    },
+    {
+      "name": "academic-cv-builder",
+      "path": "skills/academic-cv-builder/SKILL.md",
+      "description": "Build academic CVs with publications and grants",
+      "triggers": ["academic CV", "curriculum vitae", "professor resume", "research CV"]
+    },
+    {
+      "name": "reference-list-builder",
+      "path": "skills/reference-list-builder/SKILL.md",
+      "description": "Create professional reference lists",
+      "triggers": ["references", "reference list", "professional references"]
+    },
+    {
+      "name": "offer-comparison-analyzer",
+      "path": "skills/offer-comparison-analyzer/SKILL.md",
+      "description": "Compare multiple job offers",
+      "triggers": ["compare offers", "multiple offers", "which job", "offer comparison"]
+    },
+    {
+      "name": "resume-version-manager",
+      "path": "skills/resume-version-manager/SKILL.md",
+      "description": "Manage multiple resume versions",
+      "triggers": ["resume versions", "master resume", "different versions", "track resumes"]
+    },
+    {
+      "name": "creative-portfolio-resume",
+      "path": "skills/creative-portfolio-resume/SKILL.md",
+      "description": "Balance creative design with ATS compatibility",
+      "triggers": ["creative resume", "designer resume", "visual resume", "portfolio resume"]
+    },
+    {
+      "name": "resume-section-builder",
+      "path": "skills/resume-section-builder/SKILL.md",
+      "description": "Build targeted resume sections",
+      "triggers": ["resume sections", "skills section", "summary section", "experience section"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Resume Optimization",
+      "skills": ["resume-ats-optimizer", "resume-bullet-writer", "resume-quantifier", "resume-formatter", "resume-section-builder"]
+    },
+    {
+      "name": "Job Search Strategy",
+      "skills": ["job-description-analyzer", "resume-tailor", "resume-version-manager", "offer-comparison-analyzer"]
+    },
+    {
+      "name": "Supporting Documents",
+      "skills": ["cover-letter-generator", "linkedin-profile-optimizer", "portfolio-case-study-writer", "reference-list-builder"]
+    },
+    {
+      "name": "Interview & Negotiation",
+      "skills": ["interview-prep-generator", "salary-negotiation-prep"]
+    },
+    {
+      "name": "Specialized Roles",
+      "skills": ["tech-resume-optimizer", "executive-resume-writer", "academic-cv-builder", "creative-portfolio-resume", "career-changer-translator"]
+    }
+  ]
+}
