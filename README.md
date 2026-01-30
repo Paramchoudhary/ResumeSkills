@@ -36,30 +36,58 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 ### Option 1: CLI Install (Recommended)
 
 ```bash
-# Install all skills
-npx skills add resume-skills
+# Install all 20 skills globally (works across all projects)
+npx skills add Paramchoudhary/ResumeSkills -g -y
 
-# Install specific skills
-npx skills add resume-skills --skill resume-ats-optimizer resume-bullet-writer
+# Install to current project only
+npx skills add Paramchoudhary/ResumeSkills -y
 
-# List available skills
-npx skills add resume-skills --list
+# List installed skills
+npx skills list
+
+# List global skills
+npx skills list --global
 ```
 
 ### Option 2: Manual Install
 
 ```bash
-git clone https://github.com/Paramchoudhary/resume-skills.git
-cp -r resume-skills/skills/* ~/.claude/skills/
+# Clone and copy to skills folder
+git clone https://github.com/Paramchoudhary/ResumeSkills.git
+mkdir -p ~/.cursor/skills
+cp -r ResumeSkills/skills/* ~/.cursor/skills/
 ```
 
 ### Option 3: Direct Download
 
-Download individual skill files from the `/skills` directory and add them to your Claude Code skills folder.
+Download individual skill files from the `/skills` directory and add them to your AI agent's skills folder.
+
+### Uninstall
+
+```bash
+# Remove individual skills by name
+npx skills remove resume-ats-optimizer
+npx skills remove resume-bullet-writer
+
+# Or remove all skills from a directory
+rm -rf ~/.agents/skills/resume-*
+rm -rf ~/.cursor/skills/resume-*
+```
+
+## Supported AI Agents
+
+These skills work with multiple AI coding assistants:
+
+- **Cursor** (IDE)
+- **Claude Code** (CLI)
+- **Windsurf**
+- **Codex**
+- **Gemini CLI**
+- **Amp, Antigravity, Augment** and 30+ more
 
 ## Usage
 
-Once installed, just ask Claude Code to help with resume tasks:
+Once installed, just ask your AI assistant to help with resume tasks:
 
 ```
 "Optimize my resume for ATS"
