@@ -49,7 +49,7 @@ npx skills add resume-skills --list
 ### Option 2: Manual Install
 
 ```bash
-git clone https://github.com/yourusername/resume-skills.git
+git clone https://github.com/Paramchoudhary/resume-skills.git
 cp -r resume-skills/skills/* ~/.claude/skills/
 ```
 
