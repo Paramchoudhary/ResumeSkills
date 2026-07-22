@@ -1,0 +1,11 @@
+{
+  "name": "resume-skills",
+  "displayName": "Resume Skills",
+  "version": "1.1.0",
+  "description": "22 resume and job-search skills: ATS optimization, bullet writing, job matching, interview prep, negotiation, and more",
+  "author": { "name": "Param Choudhary" },
+  "homepage": "https://github.com/Paramchoudhary/ResumeSkills",
+  "repository": "https://github.com/Paramchoudhary/ResumeSkills",
+  "license": "MIT",
+  "keywords": ["resume", "career", "job-search", "ats", "interview", "linkedin"]
+}
