@@ -30,13 +30,26 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [resume-version-manager](/skills/resume-version-manager) | Track different resume versions, maintain master resume, manage tailored versions |
 | [creative-portfolio-resume](/skills/creative-portfolio-resume) | Balance visual design with ATS compatibility for creative roles |
 | [resume-section-builder](/skills/resume-section-builder) | Create targeted sections optimized for different experience levels and roles |
+| [cold-email-writer](/skills/cold-email-writer) | Write personalized cold outreach emails to hiring managers and founders |
+| [application-form-filler](/skills/application-form-filler) | Fill out job application form fields with tailored answers from your CV and the job description |
 
 ## Installation
 
-### Option 1: CLI Install (Recommended)
+### Option 1: Claude Code Plugin (Recommended)
+
+Install all skills as a Claude Code plugin directly from this repo:
+
+```
+/plugin marketplace add Paramchoudhary/ResumeSkills
+/plugin install resume-skills@resume-skills-marketplace
+```
+
+All 22 skills become available immediately — Claude Code triggers them automatically when you ask for resume help, or invoke one directly (e.g. `/resume-skills:resume-ats-optimizer`). This also works in Claude Desktop's Code tab.
+
+### Option 2: CLI Install
 
 ```bash
-# Install all 20 skills globally (works across all projects)
+# Install all 22 skills globally (works across all projects)
 npx skills add Paramchoudhary/ResumeSkills -g -y
 
 # Install to current project only
@@ -49,7 +62,7 @@ npx skills list
 npx skills list --global
 ```
 
-### Option 2: Manual Install
+### Option 3: Manual Install
 
 ```bash
 # Clone and copy to skills folder
@@ -58,7 +71,7 @@ mkdir -p ~/.cursor/skills
 cp -r ResumeSkills/skills/* ~/.cursor/skills/
 ```
 
-### Option 3: Direct Download
+### Option 4: Direct Download
 
 Download individual skill files from the `/skills` directory and add them to your AI agent's skills folder.
 
@@ -79,11 +92,17 @@ rm -rf ~/.cursor/skills/resume-*
 These skills work with multiple AI coding assistants:
 
 - **Cursor** (IDE)
-- **Claude Code** (CLI)
+- **Claude Code** (CLI and Claude Desktop's Code tab)
 - **Windsurf**
 - **Codex**
 - **Gemini CLI**
 - **Amp, Antigravity, Augment** and 30+ more
+
+## Repository Layout
+
+The canonical skill files live in [`skills/`](/skills). The `.agents/`, `.agent/`, `.claude/`, `.codex/`, `.cursor/`, `.gemini/`, `.opencode/`, and `.windsurf/` directories contain committed relative symlinks into `skills/`, so each tool auto-discovers the skills when you clone the repo. `scripts/sync-skills.sh` regenerates the symlinks (CI keeps them in sync — see [AGENTS.md](AGENTS.md)).
+
+> **Windows note:** checking out the symlinks requires `git config core.symlinks true` plus Developer Mode (or admin). Without it they become plain text files — the plugin, `npx skills`, and manual installs from `skills/` still work.
 
 ## Usage
 
@@ -120,12 +139,14 @@ Once installed, just ask your AI assistant to help with resume tasks:
 - `resume-tailor` - Customize for specific jobs
 - `resume-version-manager` - Track multiple versions
 - `offer-comparison-analyzer` - Compare job offers
+- `application-form-filler` - Fill application forms with tailored answers
 
 ### Supporting Documents
 - `cover-letter-generator` - Personalized cover letters
 - `linkedin-profile-optimizer` - LinkedIn optimization
 - `portfolio-case-study-writer` - Portfolio content
 - `reference-list-builder` - Professional references
+- `cold-email-writer` - Cold outreach to hiring managers and founders
 
 ### Interview & Negotiation
 - `interview-prep-generator` - STAR stories and practice

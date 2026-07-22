@@ -31,6 +31,37 @@ Have an idea for a new skill? We welcome contributions for:
 
 ## Skill File Format
 
+### Location and frontmatter
+
+Each skill is a single directory under the canonical `skills/` folder:
+
+```
+skills/<skill-name>/SKILL.md
+```
+
+`SKILL.md` must start with YAML frontmatter:
+
+```yaml
+---
+name: my-skill-name        # REQUIRED: kebab-case, MUST match the directory name
+description: What the skill does and when to use it   # REQUIRED
+---
+```
+
+Only edit files under `skills/` — the `.agents/`, `.claude/`, `.cursor/`, and other
+tool directories are symlink mirrors. After adding or removing a skill, run:
+
+```bash
+scripts/sync-skills.sh
+```
+
+to regenerate the mirrors (CI verifies this on every pull request). Also:
+
+- Bump `version` in `.claude-plugin/plugin.json` — plugin users only receive updates on a version bump
+- Add your skill to the table and category list in `README.md`
+
+### Body structure
+
 All skills must follow this structure:
 
 ```markdown

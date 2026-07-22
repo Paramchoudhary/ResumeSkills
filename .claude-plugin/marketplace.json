@@ -1,0 +1,15 @@
+{
+  "name": "resume-skills-marketplace",
+  "owner": { "name": "Param Choudhary" },
+  "description": "Marketplace for the ResumeSkills plugin",
+  "plugins": [
+    {
+      "name": "resume-skills",
+      "source": "./",
+      "description": "22 resume and job-search skills for Claude Code",
+      "category": "productivity",
+      "license": "MIT",
+      "repository": "https://github.com/Paramchoudhary/ResumeSkills"
+    }
+  ]
+}

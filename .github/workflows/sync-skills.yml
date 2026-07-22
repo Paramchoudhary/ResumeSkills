@@ -1,0 +1,49 @@
+name: Sync skill symlinks
+
+on:
+  pull_request:
+    paths:
+      - "skills/**"
+      - ".agents/**"
+      - ".agent/**"
+      - ".claude/**"
+      - ".codex/**"
+      - ".cursor/**"
+      - ".gemini/**"
+      - ".opencode/**"
+      - ".windsurf/**"
+      - "scripts/sync-skills.sh"
+  push:
+    branches: [main]
+    paths:
+      - "skills/**"
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify skill symlinks are in sync
+        run: ./scripts/sync-skills.sh --check
+
+  autofix:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate skill symlinks
+        run: ./scripts/sync-skills.sh
+      - name: Commit any drift
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore: sync skill symlinks"
+            git push
+          else
+            echo "Symlinks already in sync."
+          fi
