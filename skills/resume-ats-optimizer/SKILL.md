@@ -8,12 +8,15 @@ description: Optimize resumes for Applicant Tracking Systems, check ATS compatib
 ## When to Use This Skill
 
 Use this skill when the user wants to:
-- Optimize their resume for Applicant Tracking Systems (ATS)
-- Check if their resume will pass automated screening
-- Understand why their applications aren't getting responses
-- Mentions keywords like: "ATS", "not getting interviews", "resume not working", "optimize resume", "keyword optimization"
+- Optimize a resume for Applicant Tracking Systems (ATS)
+- Check whether a resume will pass automated screening
+- Understand why applications are not getting responses
+- Improve resumes for students or junior IT candidates applying in Germany
+- Tailor CVs for Ausbildung, internships, working-student roles, and entry-level IT jobs
+- Review English or German CVs for the same role
+- Mentions keywords like: "ATS", "not getting interviews", "resume not working", "optimize resume", "keyword optimization", "Ausbildung", "Praktikum", "Werkstudent", "entry-level IT"
 
-Also use when the user provides a resume file and mentions they're applying to jobs.
+Also use when the user provides a resume file and mentions they are applying to jobs in Germany or wants help with a student or junior IT application.
 
 ## Core Capabilities
 
@@ -23,6 +26,68 @@ Also use when the user provides a resume file and mentions they're applying to j
 - Calculate match scores between resume and job postings
 - Suggest keyword additions and placements
 - Generate ATS-friendly formatting recommendations
+- Review student, internship, and entry-level IT experience honestly
+- Support both English and German CV versions without inventing details
+- Match resumes to Ausbildung, internship, working-student, and junior IT roles
+- Generate recommendations that stay truthful and evidence-based
+
+## Target Audience and Context
+
+This skill is especially useful for:
+- Students and junior IT candidates
+- Applicants targeting Ausbildung, internships, working-student roles, and entry-level IT jobs
+- Candidates applying in Germany
+- Users preparing either English or German CVs
+
+Focus on real experience such as:
+- coursework, projects, and academic work
+- internships and part-time jobs
+- volunteer work and student projects
+- certifications and tools that are actually listed on the CV
+
+## Honesty and Guardrails
+
+Never invent or exaggerate:
+- skills
+- experience
+- achievements
+- certifications
+- language levels
+- tools or platforms
+
+When a skill is not clearly supported by the CV, use accurate phrasing such as:
+- "basic knowledge of"
+- "completed coursework in"
+- "hands-on experience with"
+- "project work involving"
+
+Do not add experience or credentials that the user did not provide.
+
+## Suggested Scoring Framework
+
+Use these scoring categories and weights when evaluating a resume:
+- ATS readability and formatting: 25
+- Keyword relevance: 30
+- Role fit: 20
+- Evidence quality and honesty: 15
+- German-market and language fit: 10
+
+Suggested interpretation:
+- 85-100: strong match
+- 70-84: good but needs targeted improvements
+- 50-69: weak match
+- below 50: poor fit for the target role
+
+## German-Market-Specific Checks
+
+Before finalizing recommendations, verify that the resume:
+- Uses a simple, one-column layout that ATS systems can parse
+- Keeps section names clear and recognizable in English or German
+- Avoids tables, text boxes, icons, graphics, or decorative elements
+- Uses consistent dates and formatting
+- Presents school, projects, internships, and part-time work clearly
+- Matches the target role's language and terminology
+- Uses truthful and role-appropriate phrasing for German employers
 
 ## The ATS Problem
 
@@ -79,6 +144,11 @@ NOT in header/footer, and avoid:
 ## Keyword Optimization Process
 
 ### Step 1: Extract Job Description Keywords
+
+For students and junior IT candidates, prioritize keywords that are clearly supported by the CV, such as:
+- Tools and platforms relevant to IT roles (Python, Java, SQL, Excel, Windows, Linux, Office 365, Azure, AWS)
+- Academic and project-related terms (software development, troubleshooting, networking, testing, documentation, Git)
+- Role-specific terms for Ausbildung or internships (customer support, IT service, collaboration, problem solving, communication)
 
 Identify three types of keywords:
 
@@ -144,7 +214,7 @@ Target: 80%+ for strong match
 
 ## Analysis Output Format
 
-When analyzing a resume, provide this structured report:
+When analyzing a resume, provide this structured report and include a short evidence and honesty review plus a German-market and language fit note:
 
 ```markdown
 # ATS COMPATIBILITY REPORT
