@@ -30,6 +30,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [resume-version-manager](/skills/resume-version-manager) | Track different resume versions, maintain master resume, manage tailored versions |
 | [creative-portfolio-resume](/skills/creative-portfolio-resume) | Balance visual design with ATS compatibility for creative roles |
 | [resume-section-builder](/skills/resume-section-builder) | Create targeted sections optimized for different experience levels and roles |
+| [mental-health-support](/skills/mental-health-support) | Soften harsh wording in job trackers and employer messages, batch notifications into digests, and pace check-ins — without changing facts |
 
 ## Installation
 
